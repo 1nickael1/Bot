@@ -1,13 +1,30 @@
 {
-  "dependencies": {
-    "dotenv": "^8.0.0",
-    "git": "^0.1.5"
-  },
+  "name": "alfheim",
+  "version": "1.0.0",
+  "description": "Bot focado em gestão e economia de Alfheim",
+  "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "dev": "nodemon index.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "devDependencies": {
-    "nodemon": "^1.19.1"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zNirvax/bot-alfh.git"
+  },
+  "author": "zDragonSK",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zNirvax/bot-alfh/issues"
+  },
+  "homepage": "https://github.com/zNirvax/bot-alfh#readme",
+  "dependencies": {
+    "@discordjs/builders": "^0.12.0",
+    "@discordjs/rest": "^0.3.0",
+    "@discordjs/voice": "^0.8.0",
+    "discord.js": "^13.6.0",
+    "dotenv": "^16.0.0",
+    "fs": "^0.0.1-security",
+    "moment": "^2.29.2",
+    "ms": "^2.1.3",
+    "quick.db": "^7.1.3"
   }
 }
