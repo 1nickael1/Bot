@@ -11,7 +11,7 @@ module.exports = {
   execute(client, message) {
     if (message.author.bot) return;
 
-    console.log('[>]\033[0;35m' + `[${message.guild}]-(${message.channel.name}) ` + '\033[0;36m' + `${message.author.tag}: ` + '\033[0;34m' + `${message.content}` + '\033[0;0m');
+    //console.log('[>]\033[0;35m' + `[${message.guild}]-(${message.channel.name}) ` + '\033[0;36m' + `${message.author.tag}: ` + '\033[0;34m' + `${message.content}` + '\033[0;0m');
 
     if (!message.content.toLocaleLowerCase().startsWith(prefix)) return;
 

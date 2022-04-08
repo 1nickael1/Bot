@@ -39,8 +39,10 @@ fs.readdirSync("./events")
     const args = message.content.trim().slice(prefix.length).split(/ +/g);
     const command = args.shift().toLocaleLowerCase();
   
-    if(command == "teste"){
-      return message.channel.send({content: "Seu teste foi um sucesso!"});
+    if(command == "reply"){
+      // return message.channel.send({content: "Seu teste foi um sucesso!"});
+      // console.log("args+++++++",args)
+      return message.channel.send({content: `${args}`});
     }
   });
 
