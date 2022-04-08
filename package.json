@@ -1,7 +1,7 @@
 {
-  "name": "alfheim",
+  "name": "Rimuru",
   "version": "1.0.0",
-  "description": "Bot focado em gestão e economia de Alfheim",
+  "description": "Bot individual",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,14 +9,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zNirvax/bot-alfh.git"
+    "url": "git@github.com:1nickael1/Bot.git"
   },
-  "author": "zDragonSK",
+  "author": "1nickael1",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/zNirvax/bot-alfh/issues"
-  },
-  "homepage": "https://github.com/zNirvax/bot-alfh#readme",
   "dependencies": {
     "@discordjs/builders": "^0.12.0",
     "@discordjs/rest": "^0.3.0",
