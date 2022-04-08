@@ -1,4 +1,5 @@
-require('dotenv').config();
+const dotenv = require('dotenv')
+dotenv.config()
 const { Client, Intents } = require("discord.js");
 const commandHandler = require("./utils/commandHandler.js");
 const fs = require("fs");
